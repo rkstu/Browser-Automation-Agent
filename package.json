@@ -1,0 +1,38 @@
+{
+  "name": "browser-automation-agent",
+  "version": "1.0.0",
+  "description": "AI agent that automates browser workflows through natural language commands",
+  "main": "src/index.js",
+  "bin": {
+    "browser-agent": "src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/",
+    "prepare": "chmod +x src/cli.js",
+    "postinstall": "playwright install"
+  },
+  "keywords": [
+    "browser",
+    "automation",
+    "ai",
+    "natural-language",
+    "openai",
+    "playwright"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "openai": "^4.90.0",
+    "playwright": "^1.38.0",
+    "playwright-extra": "^4.3.6",
+    "puppeteer": "^24.4.0",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

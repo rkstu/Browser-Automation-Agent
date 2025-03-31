@@ -1,0 +1,44 @@
+# Browser Automation Demo Script
+# These commands demonstrate both L1 and L2 features
+
+# Start by initializing the browser
+init
+
+# L1 Feature: Basic navigation
+go to kaggle.com
+
+# L2 Feature: Specialized command for finding and clicking sign in
+click-signin
+
+# L2 Feature: Specialized command for selecting email login
+click-email-option
+
+# L2 Feature: Password-first approach (fill password before username)
+fill-password
+
+# L2 Feature: Fill username field
+fill-username
+
+# L2 Feature: Submit form
+press-enter
+
+# L2 Feature: Optimized search using direct URL navigation
+search for diabetes dataset
+
+# L2 Feature: Structured search results display
+show-results
+
+# L2 Feature: View specific search result with AI analysis
+show result 2
+
+# L2 Feature: Click on a specific search result
+click_result 3
+
+# L2 Feature: AI-powered page content analysis
+tell me about this page
+
+# Close the browser
+close
+
+# Exit the application
+exit 

@@ -55,7 +55,7 @@ We've also implemented the advanced requirements:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/browser-automation-agent.git
+git clone https://github.com/rkstu/Browser-Automation-Agent.git
 cd browser-automation-agent
 
 # Install dependencies
